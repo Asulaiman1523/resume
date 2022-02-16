@@ -234,8 +234,8 @@ img{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 15px;
-    padding: 0px;
-    margin: 0px;
+   padding: 10px;
+    margin: 10px;
     margin-bottom: 15px;
     width: 100%;
 }
@@ -506,10 +506,10 @@ input[type="submit"]:hover{
 }
 @media (max-width:400px){
         .home .content h3{
-            font-size: 12px;
+            font-size: 14px;
         }
         .home .content p{
-            font-size: 14px;
+            font-size: 1rem;
         }
         .gallery .gallery-filter{
             padding: 0 14px;
@@ -517,4 +517,10 @@ input[type="submit"]:hover{
         .gallery .gallery-filter .filter-item{
             font-size: 14px;
         }
+	.about .row .cont h3{
+		font-size: .7rem;
+	}
+	.about .row .image img{
+		width:20rem;
+	}
     }
